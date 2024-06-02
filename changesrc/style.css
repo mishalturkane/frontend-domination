@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body {
+        height: 100%;
+        width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(133, 131, 131);
+}
+#img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+img{
+    height: 300px;
+    width: 200px;
+    padding: 20px 20px;
+}
+button{
+    position: absolute;
+    margin-left: 47.5%;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    color: white;
+    background-color: #AF47D2;
+    font-family: "montserrat";
+    text-transform: uppercase;
+    border: 1px solid rgb(178, 193, 240);
+
+}
